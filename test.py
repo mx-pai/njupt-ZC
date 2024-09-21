@@ -202,4 +202,5 @@ if __name__ == '__main__':
     ### 你的综测总分是
     ''')
     total_score = dy_end + nl_end + jd_end
-    st.metric(total_score)
+    if total_score !=0:
+        st.metric(total_score)
